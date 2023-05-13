@@ -2,7 +2,7 @@ FROM ubuntu:focal as build
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt install -y g++ make cmake libboost-dev \
-  libfmt-dev libtinyxml-dev libtinyxml2-dev gzip python3
+  libfmt-dev gzip python3
 
 ## Install simulation-core dependencies
 COPY deps /app/deps
