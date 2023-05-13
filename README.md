@@ -17,7 +17,7 @@ bash ./build-docker.sh
 This action will create `ns3-server:latest` docker image with installed simulation core and server.
 
 ## How to use
-# server (with docker-compose)
+### server (with docker-compose)
 Use `docker-compose.yaml` file to run server with docker-compose.
 ```bash
 docker-compose up -d
@@ -31,5 +31,5 @@ Enviroment parameters:
 - `FTP_USER` - FTP login
 - `FTP_PASSWORD` - FTP passwod
 
-# client
+### client
 See `client/README.md` file.
