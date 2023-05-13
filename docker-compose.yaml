@@ -5,10 +5,16 @@ services:
     image: ns3-server
     entrypoint: python3 ./app.py
     restart: always
-    network_mode: host
-      #    ports:
-      #      - 8000:8000
+    ports:
+      - 8000:8000
     environment:
-      - FTP_SERVER=127.0.0.1
+      - FTP_SERVER=172.19.0.1
       - FTP_USER=test_user
       - FTP_PASSWORD=test_user_password
+
+networks:
+  default:
+    driver: bridge
+    ipam:
+      config:
+          - subnet: 172.19.0.0/16 
