@@ -1,0 +1,9 @@
+[submodule "client"]
+	path = client
+	url = git@github.com:littlehobbit/ns-client.git
+[submodule "server"]
+	path = server
+	url = git@github.com:littlehobbit/ns3-server.git
+[submodule "simulation-core"]
+	path = simulation-core
+	url = git@github.com:littlehobbit/simulation-core.git

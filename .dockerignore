@@ -1,0 +1,8 @@
+simulation-core/build
+server/venv
+server/.env
+server/__pycache__
+server/tests
+server/.vscode
+server/scripts
+server/.git

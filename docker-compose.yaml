@@ -1,0 +1,14 @@
+version: '3'
+services:
+  ns3-server:
+    container_name: ns3-server
+    image: ns3-server
+    entrypoint: python3 ./app.py
+    restart: always
+    network_mode: host
+      #    ports:
+      #      - 8000:8000
+    environment:
+      - FTP_SERVER=127.0.0.1
+      - FTP_USER=test_user
+      - FTP_PASSWORD=test_user_password
