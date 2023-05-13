@@ -1,7 +1,9 @@
 # ns-3 wrapper
-This is superproject repo for ns-3 wrapper applications that automize creation of network models. App provides:
-    - UI interface for topology
-    - HTTP API to start simulations
+This is superproject repo for ns-3 wrapper applications that automize creation of network models. 
+
+App provides:
+- UI interface for topology
+- HTTP API to start simulations
 
 ## Installation
 Clone this repository with `--recurse-submodules` to install from sources.
