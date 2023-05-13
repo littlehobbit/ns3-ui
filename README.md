@@ -24,8 +24,9 @@ docker-compose up -d
 ```
 
 Enviroment parameters:
-- `NS3_SERVER_PORT` - server port
-- `SIMULATION_EXECUTABLE` - path to simulation binary (by default is /app/core/simulation)
+- `NS3_SERVER_HOST` - ip address to bind server (by default is `0.0.0.0`)
+- `NS3_SERVER_PORT` - server port (by default is `8000`)
+- `SIMULATION_EXECUTABLE` - path to simulation binary (by default is `/app/core/simulation`)
 - `FTP_SERVER` - address of FTP result's storage
 - `FTP_USER` - FTP login
 - `FTP_PASSWORD` - FTP passwod
